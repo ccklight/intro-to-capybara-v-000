@@ -4,7 +4,7 @@ describe "GET '/' - Greeting Form" do
   it 'welcomes the user' do
     visit '/'
     expect(page.body).to include("Welcome!")
-    end
+    
   end
 
     # New test
@@ -15,4 +15,4 @@ describe "GET '/' - Greeting Form" do
       expect(page).to have_field(:user_name)
     end
 
-  end
+end
