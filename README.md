@@ -534,7 +534,7 @@ only responds to a single HTTP request type, `GET` requests to `/`. We need to
 teach it to respond to `POST` requests to `/greet`. Let's do that.
 
 Edit: `./app.rb`
-Miscellaneous
+
 ```ruby
 class Application < Sinatra::Base
   # Old route from previous tests
