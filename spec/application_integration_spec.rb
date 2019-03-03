@@ -15,12 +15,3 @@ describe "GET '/' - Greeting Form" do
     end
 
   end
-
-
-
-
-
-
-
-
-
