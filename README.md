@@ -534,7 +534,7 @@ only responds to a single HTTP request type, `GET` requests to `/`. We need to
 teach it to respond to `POST` requests to `/greet`. Let's do that.
 
 Edit: `./app.rb`
-
+Miscellaneous
 ```ruby
 class Application < Sinatra::Base
   # Old route from previous tests
@@ -550,7 +550,7 @@ end
 ```
 
 Using the Sinatra `post` method, we create a response for requests to `POST '/greet'`. That response should be the HTML contained in the `views/greet.erb`
-template, just like the HTML response of our first route was contained in 
+template, just like the HTML response of our first route was contained in
 `views/index.erb`.
 
 The next step is to build our view in `views/greet.erb`. The point of this view
