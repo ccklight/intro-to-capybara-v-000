@@ -550,7 +550,7 @@ end
 ```
 
 Using the Sinatra `post` method, we create a response for requests to `POST '/greet'`. That response should be the HTML contained in the `views/greet.erb`
-template, just like the HTML response of our first route was contained in
+template, just like the HTML response of our first route was contained in 
 `views/index.erb`.
 
 The next step is to build our view in `views/greet.erb`. The point of this view
@@ -598,4 +598,3 @@ We learned about:
 Great job!
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/intro-to-capybara'>Intro to Capybara Tests</a> on Learn.co and start learning to code for free.</p>
-
